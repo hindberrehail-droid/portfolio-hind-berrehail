@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hind Berrehail - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="container header-content">
+      <div class="profile">
+        <img src="photo_de_profil.jpg" alt="Profile picture of Hind Berrehail">
+      </div>
+      <div class="intro">
+        <h1>Hind Berrehail</h1>
+        <p class="subtitle">General Engineering Student – ECAM LaSalle Strasbourg</p>
+        <p class="tagline">Specialization: Materials & Sustainable Development (MDD)</p>
+        <nav class="main-nav">
+          <a href="#about">About Me</a>
+          <a href="#projects">Projects</a>
+          <a href="#internships">Internships</a>
+          <a href="#passions">Passions</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>
+        I am 22 years old and currently studying general engineering at
+        <strong>ECAM LaSalle</strong> on the Strasbourg campus. I specialize in
+        <strong>Materials and Sustainable Development (MDD)</strong>, driven by the goal
+        of contributing to more responsible, efficient, and environmentally conscious
+        industrial projects.
+      </p>
+      <p>
+        My academic path combines <strong>technical skills</strong> (electronics, mechanics,
+        embedded systems) with a strong <strong>international experience</strong> thanks to multiple
+        study abroad programs.
+      </p>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+
+      <article class="item">
+        <div class="item-text">
+          <h3>Connected Birdhouse (2025)</h3>
+          <p class="item-tags">Electronics · Embedded Systems · Mechanical Design</p>
+          <p>
+            Development of a <strong>connected birdhouse</strong> allowing the monitoring of bird
+            activity and environmental conditions inside the structure.
+          </p>
+          <ul>
+            <li>Designed the <strong>electronic system</strong> (sensors, wiring, power).</li>
+            <li>Programmed the <strong>embedded system</strong> for data collection and transmission.</li>
+            <li>Worked on the <strong>mechanical integration</strong> of all components.</li>
+          </ul>
+        </div>
+        <div class="item-image">
+          <img src="photo_projet_nichoir.jpg" alt="Connected birdhouse project">
+        </div>
+      </article>
+    </section>
+
+    <section id="internships" class="card">
+      <h2>Internships</h2>
+
+      <article class="item">
+        <div class="item-text">
+          <h3>Engineering Intern – SAFRAN (4 months)</h3>
+          <p class="item-tags">Industrial Layout · Project Management · Continuous Improvement</p>
+          <p>
+            Four-month internship at <strong>SAFRAN</strong>, working on the
+            <strong>reorganization of a production building</strong>.
+          </p>
+          <ul>
+            <li>Analyzed <strong>workflows</strong> and team needs.</li>
+            <li>Developed several <strong>layout scenarios</strong> to improve ergonomics and efficiency.</li>
+            <li>Collaborated with project stakeholders for <strong>project planning</strong>.</li>
+          </ul>
+        </div>
+        <div class="item-image">
+          <img src="photo_stage_safran.jpg" alt="Internship at SAFRAN">
+        </div>
+      </article>
+    </section>
+
+    <section id="passions" class="card">
+      <h2>Passions</h2>
+
+      <div class="passion-grid">
+        <article class="passion">
+          <img src="photo_voyage_bulgarie.jpg" alt="Landscape in Bulgaria">
+          <h3>Travel & International Perspectives</h3>
+          <p>
+            I love discovering new cultures and stepping out of my comfort zone.
+            I had the opportunity to complete <strong>two Erasmus exchanges</strong>:
+          </p>
+          <ul>
+            <li><strong>Sofia University (Bulgaria)</strong> – 2022</li>
+            <li><strong>Swinburne (Malaysia)</strong> – 2024</li>
+          </ul>
+          <p>
+            These experiences taught me adaptability, teamwork in multicultural environments,
+            and fueled my curiosity about the world.
+          </p>
+          <div class="passion-images-inline">
+            <img src="photo_voyage_malaisie.jpg" alt="Landscape in Malaysia">
+          </div>
+        </article>
+
+        <article class="passion">
+          <img src="photo_sport.jpg" alt="Sport illustration">
+          <h3>Sport & Well-being</h3>
+          <p>
+            Sport plays an important role in my daily life. It helps me stay balanced,
+            organized, and motivated—whether through running, hiking, or other activities.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>
+        Feel free to reach out for internships, collaborations, or simply to connect!
+      </p>
+      <div class="contact-grid">
+        <div>
+          <h3>Direct Contact</h3>
+          <ul class="contact-list">
+            <li><strong>Phone:</strong> <a href="tel:+33631811882">+33 6 31 81 18 82</a></li>
+            <li><strong>Email:</strong> <a href="mailto:hind.berrehail@2026.icam.f">hind.berrehail@2026.icam.f</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact Form</h3>
+          <form class="contact-form">
+            <label for="nom">Name</label>
+            <input type="text" id="nom" name="nom" placeholder="Your name" required>
+
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+
+            <button type="submit" disabled>Send (demo)</button>
+            <p class="form-note">
+              This form is a <strong>static demo</strong>. Please use email or phone to contact me.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Hind Berrehail — Personal Portfolio</p>
+    </div>
+    <script>
+      const yearSpan = document.getElementById("year");
+      if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+      }
+    </script>
+  </footer>
+</body>
+</html>
