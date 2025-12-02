@@ -333,4 +333,20 @@ body {
   .card {
     padding: 1.25rem 1.1rem 1.4rem;
   }
+  .international-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+
+.international-images img {
+  width: 100%;
+  height: 260px; /* tu peux mettre 300px si tu veux plus grand */
+  object-fit: cover;  /* évite les images écrasées */
+  border-radius: 16px;
+  border: 1px solid var(--border-soft);
+  box-shadow: var(--shadow-soft);
+}
+
 }
