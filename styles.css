@@ -348,5 +348,21 @@ body {
   border: 1px solid var(--border-soft);
   box-shadow: var(--shadow-soft);
 }
+  .international-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+
+.international-images img {
+  width: 100%;
+  height: 260px; 
+  object-fit: cover;
+  border-radius: 16px;
+  border: 1px solid var(--border-soft);
+  box-shadow: var(--shadow-soft);
+}
+
 
 }
